@@ -1,0 +1,28 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\x64\Debug\kernel.cu.obj "C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu" 
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(303): warning #177-D: variable "testint" was declared but never referenced
+  
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(347): warning #177-D: variable "test" was declared but never referenced
+  
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(475): warning #177-D: variable "testchar" was declared but never referenced
+  
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(462): warning #177-D: variable "testlenchar" was declared but never referenced
+  
+  kernel.cu
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(164): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(205): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(205): warning C4267: 'initialisation' : conversion de 'size_t' en 'const int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(212): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(379): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(427): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(461): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(531): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(532): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(536): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressFileGPU\CompressFileGPU\kernel.cu(537): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+     Création de la bibliothèque C:\Users\tomde\source\repos\CompressFileGPU\x64\Debug\CompressFileGPU.lib et de l'objet C:\Users\tomde\source\repos\CompressFileGPU\x64\Debug\CompressFileGPU.exp
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  CompressFileGPU.vcxproj -> C:\Users\tomde\source\repos\CompressFileGPU\x64\Debug\CompressFileGPU.exe
