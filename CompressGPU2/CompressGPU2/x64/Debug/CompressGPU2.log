@@ -1,0 +1,35 @@
+﻿  Compiling CUDA source file dictionnary.cu...
+  
+  C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\bin\HostX64\x64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\dictionnary.cu.obj "C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\dictionnary.cu" 
+  The contents of <filesystem> are available only with C++17 or later.
+  dictionnary.cu
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\dictionnary.cu(14): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\dictionnary.cu(14): warning C4267: 'initialisation' : conversion de 'size_t' en 'const int', perte possible de données
+C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\dictionnary.cu(20): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  
+  C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -dlink -o x64\Debug\CompressGPU2.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 64 C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\Compress.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\dictionnary.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\dictionnaryEntry.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\kernel.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\Node.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\NodeCuda.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\NodeCudaArray.cu.obj C:\Users\tomde\source\repos\CompressGPU2\CompressGPU2\x64\Debug\SuffixTree.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  cudadevrt.lib
+  Compress.cu.obj
+  dictionnary.cu.obj
+  dictionnaryEntry.cu.obj
+  kernel.cu.obj
+  Node.cu.obj
+  NodeCuda.cu.obj
+  NodeCudaArray.cu.obj
+  SuffixTree.cu.obj
+  CompressGPU2.vcxproj -> C:\Users\tomde\source\repos\CompressGPU2\x64\Debug\CompressGPU2.exe
